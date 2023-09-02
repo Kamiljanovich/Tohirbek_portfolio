@@ -1,0 +1,19 @@
+@import './globals/variables';
+@import './globals/normalize';
+@import './globals/global';
+
+/* components */
+@import './components/layout';
+@import './components/header';
+@import './components/modalLanguages';
+
+// Pages
+
+@import './pages/home';
+@import './pages/aboute';
+@import './pages/myprojects';
+@import './pages/contacts';
+
+.ant-pagination-options {
+  display: none !important;
+}

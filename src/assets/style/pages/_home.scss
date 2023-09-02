@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    .photo {
+        width: 250px;
+        height: 250px;
+        background: gray;
+        border-radius: 100000px;
+        border: 5px solid rgb(0, 0, 0);
+        background-color: $white-color;
+        padding: 5px;
+    }
+
+    .name {
+        color:rgb(45, 63, 123);
+    }
+}
